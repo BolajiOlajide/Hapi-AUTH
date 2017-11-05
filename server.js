@@ -18,7 +18,7 @@ const port = process.env.PORT || 8000;
 
 // The connection object takes some
 // configuration, including the port
-server.connection({ port: 5300 });
+server.connection({ port });
 
 const dbUrl = process.env.DB_URL;
 
