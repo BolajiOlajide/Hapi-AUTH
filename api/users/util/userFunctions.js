@@ -2,6 +2,7 @@
 
 const Boom = require('boom');
 const User = require('../model/User');
+const bcrypt = require('bcrypt');
 
 function verifyUniqueUser(req, res) {
   // Find an entry from the database that
