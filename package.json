@@ -1,0 +1,29 @@
+{
+  "name": "hapi-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "boom": "^7.1.1",
+    "dotenv": "^4.0.0",
+    "glob": "^7.1.2",
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt": "^4.0.0",
+    "joi": "^13.0.1",
+    "mongoose": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolajiOlajide/Hapi-AUTH-.git"
+  },
+  "author": "Bolaji Olajide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BolajiOlajide/Hapi-AUTH-/issues"
+  },
+  "homepage": "https://github.com/BolajiOlajide/Hapi-AUTH-#readme"
+}
